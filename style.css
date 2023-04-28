@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    /* box-sizing: border-box; */
+}
+
+header {
+    background-color: rgb(219, 38, 38);
+}
+
+.logo {
+    justify-self: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-login {
+    width: 20rem;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.btn {
+    width: 100%;
+}
